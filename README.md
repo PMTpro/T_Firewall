@@ -6,7 +6,9 @@ firewall/core.php
 
 2. Chèn vào dòng đầu tiên của tệp dòng này:
 
+```php
 <?php
 session_start();
 require('firewall/core.php');
 ?>
+```
