@@ -2,7 +2,7 @@
 
 namespace NgatNgay;
 
-class T_Firewall
+class Firewall
 {
 
     /**
@@ -60,7 +60,7 @@ class T_Firewall
      */
     private function checkCookie()
     {
-        if (setcookie('___FIREWALL_Check', md5('T_FIREWALL'), time() + 360)) {
+        if (setcookie('___FIREWALL_Check', md5('___FIREWALL'), time() + 360)) {
             if (isset($_COOKIE['___FIREWALL_Check'])) {
                 return true;
             }

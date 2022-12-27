@@ -1,5 +1,5 @@
 {
-  "name": "ngatngay/antiflood-php",
+  "name": "ngatngay/firewall-php",
   "description": "Simple Antiflood",
   "minimum-stability": "stable",
   "license": "MIT",

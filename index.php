@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 
 session_start();
 
-new \NgatNgay\T_Firewall([
+new \NgatNgay\Firewall([
     // Danh Sách Tên Miền Cho Phép POST (để domain của bạn)
     'firewall_domains'                 => [
         'buidoi.net',
