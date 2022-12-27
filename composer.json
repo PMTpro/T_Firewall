@@ -1,0 +1,21 @@
+{
+  "name": "ngatngay/antiflood-php",
+  "description": "Simple Antiflood",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ngatngay",
+      "email": "ngatngay@ngatngay.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/http-foundation": "^5.4"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
