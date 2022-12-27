@@ -275,7 +275,7 @@ function submitForm() {
 
     setTimeout(function () {
         document.getElementById("firewall_form").submit();
-    }, <?php echo $_SESSION['__firewall_wait_allow'] ?>);
+    }, <?php echo $_SESSION['___firewall_wait_allow'] ?>);
 }
 </script>
 </head>
