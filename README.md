@@ -2,6 +2,10 @@
 
 DQH Firewall Mod
 
+## Yêu cầu
+
+- PHP 7.4+ (Chưa kiểm tra trên các phiên bản PHP khác :))
+
 ## Cài đặt
 ```
 composer require ngatngay/firewall-php:dev-main
